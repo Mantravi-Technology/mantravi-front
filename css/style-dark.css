@@ -1,0 +1,14 @@
+:root[data-tm-layout=dark] {
+  --dark-color1: #0F2727;
+  --dark-color2: #063232;
+  --dark-color3: #051B05;
+  --theme-color-white: var(--dark-color2);
+  --theme-color-white-rgb: 255, 255, 255;
+  --theme-color-light: var(--dark-color2);
+  --theme-color-gray: var(--dark-color3);
+  --body-color: var(--dark-color1);
+  --headings-color: #fff;
+  --link-color: #CFCFCF;
+  --text-color: #cccccc;
+  --sec-title-subtitle-color: #ffffff;
+}/*# sourceMappingURL=style-dark.css.map */

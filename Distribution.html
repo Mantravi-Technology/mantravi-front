@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<title>Distribution - Capstone Consultancy</title>
+<!-- Stylesheets -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+
+<link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+<link rel="icon" href="images/favicon.svg" type="image/x-icon">
+
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+    .distribution-section {
+        padding: 80px 0;
+        background-color: #f8f9fa;
+    }
+    .service-card {
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        padding: 30px;
+        margin-bottom: 30px;
+        transition: transform 0.3s ease;
+        height: 100%;
+    }
+    .service-card:hover {
+        transform: translateY(-5px);
+    }
+    .service-icon {
+        width: 80px;
+        height: 80px;
+        background: linear-gradient(135deg, #3498db, #2980b9);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .service-icon i {
+        font-size: 2rem;
+        color: white;
+    }
+    .service-title {
+        color: #2c3e50;
+        margin-bottom: 15px;
+        font-weight: 700;
+    }
+    .service-description {
+        color: #555;
+        line-height: 1.6;
+    }
+    .benefits-section {
+        background: linear-gradient(135deg, #2c3e50, #34495e);
+        color: white;
+        padding: 60px 0;
+    }
+    .benefit-item {
+        text-align: center;
+        padding: 20px;
+    }
+    .benefit-icon {
+        font-size: 3rem;
+        margin-bottom: 20px;
+        color: #3498db;
+    }
+    .process-steps {
+        padding: 60px 0;
+    }
+    .process-step {
+        text-align: center;
+        padding: 20px;
+    }
+    .step-number {
+        width: 60px;
+        height: 60px;
+        background: #e74c3c;
+        color: white;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin: 0 auto 20px;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="page-wrapper">
+
+  <div id="preloader" class="preloader">
+    <div class="animation-preloader">
+      <div class="spinner"></div>
+      <p class="text-center">Loading</p>
+    </div>
+    <div class="loader">
+      <div class="row">
+        <div class="col-3 loader-section section-left">
+          <div class="bg"></div>
+        </div>
+        <div class="col-3 loader-section section-left">
+          <div class="bg"></div>
+        </div>
+        <div class="col-3 loader-section section-right">
+          <div class="bg"></div>
+        </div>
+        <div class="col-3 loader-section section-right">
+          <div class="bg"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scroll To Top -->
+  <div class="scroll-to-top scroll-to-target" data-target="html">
+    <span class="fa fa-angle-up"></span>
+  </div>
+
+  <!-- Main Header-->
+  <header class="main-header header-style-one header-1">
+    <!-- Header Lower -->
+    <div class="header-lower">
+      <!-- Main box -->
+      <div class="main-box">
+        <!--Nav Box-->
+        <div class="nav-outer">
+          <div class="logo-box">
+            <div class="logo">
+              <a href="index.html"
+                ><img
+                  src="images/black-logo.png"
+                  alt=""
+                  title="Capstone Consultancy"
+                  style="max-width: 180px"
+              /></a>
+            </div>
+          </div>
+
+          <div class="outer-box">
+            <nav class="nav main-menu">
+              <ul class="navigation">
+                <li class="current dropdown">
+                  <a href="index.html">Home</a>
+                </li>
+
+                <li class="dropdown">
+                  <a href="SingaporeBrands.html">Singapore Brands</a>
+                  <ul>
+                    <li class="dropdown">
+                      <a href="Franchising&Licensing.html">Franchising & Licensing</a>
+                      <ul>
+                        <li><a href="Education.html">Education</a></li>
+                        <li><a href="F&B.html">F&amp;B</a></li>
+                        <li><a href="Lifestyle.html">Lifestyle</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a href="Distribution.html">Distribution</a>
+                      <ul>
+                        <li><a href="#">TBD</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+
+                <li>
+                  <a href="page-services.html">Services</a>
+                </li>
+
+                <li><a href="about.html">About</a></li>
+                <li class="dropdown">
+                  <a href="#">Asia</a>
+                  <ul>
+                    <li><a href="india.html">India</a></li>
+                    <li>
+                      <a href="Singapore.html">Singapore</a>
+                    </li>
+                    <li><a href="Vietnam.html">Vietnam</a></li>
+                  </ul>
+                </li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="#contact" aria-label="Jump to Contact section">Contact</a></li>
+              </ul>
+            </nav>
+            <!-- Main Menu End-->
+
+            <!-- Mobile Nav toggler -->
+            <div class="mobile-nav-toggler">
+              <span class="icon lnr-icon-bars"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Header Lower -->
+
+    <!-- Mobile Menu  -->
+    <div class="mobile-menu">
+      <div class="menu-backdrop"></div>
+
+      <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+      <nav class="menu-box">
+        <div class="upper-box">
+          <div class="nav-logo">
+            <a href="index.html"
+              ><img src="images/white-logo.png" alt=""
+            /></a>
+          </div>
+          <div class="close-btn"><i class="icon fa fa-times"></i></div>
+        </div>
+
+        <ul class="navigation clearfix">
+          <!--Keep This Empty / Menu will come through Javascript-->
+        </ul>
+        <ul class="contact-list-one">
+          <li>
+            <!-- Contact Info Box -->
+            <div class="contact-info-box">
+              <i class="icon lnr-icon-phone-handset"></i>
+              <span class="title">Call Now</span>
+              <a href="tel:+92880098670">+92 (8800) - 98670</a>
+            </div>
+          </li>
+          <li>
+            <!-- Contact Info Box -->
+            <div class="contact-info-box">
+              <span class="icon lnr-icon-envelope1"></span>
+              <span class="title">Send Email</span>
+              <a
+                href="https://html.kodesolution.com/cdn-cgi/l/email-protection#751d10190535161a1805141b0c5b161a18"
+                ><span
+                  class="__cf_email__"
+                  data-cfemail="274f424b576744484a5746495e0944484a"
+                  >[email&#160;protected]</span
+                ></a
+              >
+            </div>
+          </li>
+          <li>
+            <!-- Contact Info Box -->
+            <div class="contact-info-box">
+              <span class="icon lnr-icon-clock"></span>
+              <span class="title">Send Email</span>
+              Mon - Sat 8:00 - 6:30, Sunday - CLOSED
+            </div>
+          </li>
+        </ul>
+
+        <ul class="social-links">
+          <li>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-pinterest"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- End Mobile Menu -->
+
+    <!-- Sticky Header  -->
+    <div class="sticky-header">
+      <div class="auto-container">
+        <div class="inner-container">
+          <!--Logo-->
+          <div class="logo">
+            <a href="index.html"
+              ><img src="images/black-logo.png" alt="img"
+            /></a>
+          </div>
+
+          <!--Right Col-->
+          <div class="nav-outer">
+            <!-- Main Menu -->
+            <nav class="main-menu">
+              <div class="navbar-collapse show collapse clearfix">
+                <ul class="navigation clearfix">
+                  <!--Keep This Empty / Menu will come through Javascript-->
+                </ul>
+              </div>
+            </nav>
+            <!-- Main Menu End-->
+
+            <!--Mobile Navigation Toggler-->
+            <div class="mobile-nav-toggler">
+              <span class="icon lnr-icon-bars"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Sticky Menu -->
+  </header>
+  <!--End Main Header -->
+
+  <!-- Start main-content -->
+  <section class="page-title">
+    <div class="auto-container">
+      <div class="title-outer">
+        <ul class="page-breadcrumb wow fadeInUp" data-wow-delay=".3s">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="SingaporeBrands.html">Singapore Brands</a></li>
+          <li>Distribution</li>
+        </ul>
+        <h1 class="title wow fadeInUp" data-wow-delay=".5s">Distribution Services</h1>
+      </div>
+    </div>
+  </section>
+
+  <!-- Distribution Overview Section -->
+  <section class="distribution-section">
+    <div class="auto-container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="content-box text-center mb-5">
+            <div class="sec-title mb-4">
+              <h2 class="wow fadeInUp" data-wow-delay=".2s">Singapore Product Distribution in India</h2>
+            </div>
+            <div class="text wow fadeInUp" data-wow-delay=".3s">
+              <p>Capstone Consultancy facilitates the distribution of premium Singapore products across India's diverse markets. We bridge the gap between Singapore's quality manufacturers and India's growing consumer base, ensuring seamless market entry and sustainable growth.</p>
+              <p>Our distribution network spans major metropolitan areas and emerging tier-2 cities, providing comprehensive logistics, warehousing, and retail placement solutions tailored to the Indian market.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Distribution Services -->
+      <div class="row mb-5">
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="lnr-icon-store"></i>
+            </div>
+            <h3 class="service-title">Retail Distribution</h3>
+            <p class="service-description">
+              Comprehensive retail network management across modern trade, general trade, and specialty stores. We ensure optimal product placement and visibility in key retail channels.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="lnr-icon-cart"></i>
+            </div>
+            <h3 class="service-title">E-commerce Distribution</h3>
+            <p class="service-description">
+              End-to-end e-commerce solutions including marketplace management, digital shelf optimization, and last-mile delivery coordination across major Indian e-commerce platforms.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="lnr-icon-truck"></i>
+            </div>
+            <h3 class="service-title">Logistics & Warehousing</h3>
+            <p class="service-description">
+              Strategic warehousing solutions and efficient logistics management across India's complex supply chain landscape, ensuring timely delivery and inventory optimization.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits Section -->
+  <section class="benefits-section">
+    <div class="auto-container">
+      <div class="sec-title text-center mb-5">
+        <h2 class="text-white wow fadeInUp" data-wow-delay=".2s">Why Choose Our Distribution Services?</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+          <div class="benefit-item">
+            <div class="benefit-icon">
+              <i class="lnr-icon-map-marker"></i>
+            </div>
+            <h4 class="text-white">Pan-India Reach</h4>
+            <p>Extensive distribution network covering major cities and emerging markets across India</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".4s">
+          <div class="benefit-item">
+            <div class="benefit-icon">
+              <i class="lnr-icon-chart-bars"></i>
+            </div>
+            <h4 class="text-white">Market Intelligence</h4>
+            <p>Deep understanding of regional preferences, pricing strategies, and consumer behavior</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+          <div class="benefit-item">
+            <div class="benefit-icon">
+              <i class="lnr-icon-cog"></i>
+            </div>
+            <h4 class="text-white">Customized Solutions</h4>
+            <p>Tailored distribution strategies based on product category and target market segments</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".6s">
+          <div class="benefit-item">
+            <div class="benefit-icon">
+              <i class="lnr-icon-license"></i>
+            </div>
+            <h4 class="text-white">Regulatory Compliance</h4>
+            <p>Expertise in navigating India's complex regulatory environment and import procedures</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Distribution Process -->
+  <section class="process-steps">
+    <div class="auto-container">
+      <div class="sec-title text-center mb-5">
+        <h2 class="wow fadeInUp" data-wow-delay=".2s">Our Distribution Process</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+          <div class="process-step">
+            <div class="step-number">1</div>
+            <h4>Market Assessment</h4>
+            <p>Comprehensive analysis of market potential, competition, and distribution channels</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".4s">
+          <div class="process-step">
+            <div class="step-number">2</div>
+            <h4>Strategy Development</h4>
+            <p>Customized distribution strategy including pricing, positioning, and channel selection</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+          <div class="process-step">
+            <div class="step-number">3</div>
+            <h4>Implementation</h4>
+            <p>Setting up distribution network, logistics, and retail partnerships</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".6s">
+          <div class="process-step">
+            <div class="step-number">4</div>
+            <h4>Growth & Optimization</h4>
+            <p>Continuous monitoring, performance analysis, and strategy refinement</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section Start -->
+  <section id="contact" aria-label="Contact section" class="contact-section fix section-padding">
+    <div class="contact-shape">
+      <img src="images/home-1/contact/contact-shape.png" alt="img" />
+    </div>
+    <div class="auto-container">
+      <div class="contact-wrapper">
+        <div class="row g-4">
+          <div class="col-lg-6 col-md-8">
+            <div class="contact-content-1">
+              <div class="sec-title mb-0">
+                <h6 class="sub-title text-white wow fadeInUp">
+                  <span class="triangle triangle1"></span>
+                  <span class="triangle triangle2"></span>
+                  Contact Us
+                </h6>
+                <h2 class="text-white wow fadeInUp" data-wow-delay=".2s">
+                 Get In Touch With Us!
+                </h2>
+              </div>
+
+              <form id="contact-form" action="#" class="form-box wow fadeInUp" data-wow-delay=".3s">
+                <div class="row g-4">
+                  <div class="col-md-12">
+                    <div class="form-clt">
+                      <input type="text" name="title" id="name" placeholder="Full Name*" required />
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-clt">
+                      <input type="email" name="email" id="email" placeholder="Email" />
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-clt">
+                      <input type="text" name="phone" id="phone" placeholder="Phone" />
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-clt">
+                      <textarea name="description" id="message" placeholder="Message"></textarea>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-clt">
+                      <button class="theme-btn btn-style-one w-100" type="submit">Submit Now</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+
+              <div id="contact-message"></div>
+            </div>
+          </div>
+          <div class="col-lg-6"></div>
+        </div>
+      </div>
+    </div>
+    <div class="contact-image-1">
+      <img
+        src="images/home-1/contact/contact-image.jpg"
+        alt="img"
+        class="wow img-custom-anim-right"
+      />
+      <div class="shape-image">
+        <img src="images/home-1/contact/shape-1.png" alt="img" />
+      </div>
+      <div class="contact-info-box float-bob-y">
+        <h2>Still Have you Any Question?</h2>
+        <ul class="contact-list">
+          <li>
+            <div class="icon">
+              <i class="lnr-icon-phone-handset"></i>
+            </div>
+            <div class="content">
+              <h3>Call Us</h3>
+              <p><a href="tel:+6591916628">+65 9191 6628</a></p>
+              <p><a href="tel:+918962576628">+91 89625 76628</a></p>
+            </div>
+          </li>
+          <li>
+            <div class="icon">
+              <i class="lnr-icon-envelope"></i>
+            </div>
+            <div class="content">
+              <h3>Mail Us</h3>
+              <p>
+                <a
+                  href="#"
+                  ><span
+                    class="__cf_email__"
+                    data-cfemail="b6d0dfd8d5dadfcef6d9c3c4dbd7dfda98d5d9db"
+                    >cs@thecapstoneconsultancy.com</span
+                  ></a
+                >
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="icon">
+              <i class="lnr-icon-location"></i>
+            </div>
+            <div class="content">
+              <h3>Locate Us</h3>
+              <p>
+                <a
+                  href="#"
+                  ><span
+                    class="__cf_email__"
+                    >34 Đ. Lê Thị Chợ, Phú Mỹ, Quận 7, Hồ Chí Minh 700000</span
+                  ></a
+                >
+              </p>
+            </div>
+          </li>
+        </ul>
+        <span class="ellipse-bg"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section Start -->
+  <footer
+    class="footer-section-1 fix footer-bg bg-cover grd"
+  >
+    <div class="auto-container">
+      <div class="footer-widget-wrapper">
+        <div class="row justify-content-between">
+          <div
+            class="col-xl-3 col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
+            data-wow-delay=".2s"
+          >
+            <div class="footer-widget-items mt-30">
+              <div class="widget-title mb-25">
+                <a href="index.html" class="footer-logo">
+                  <img src="images/white-logo.png" alt="img" style="width: 180px;">
+                </a>
+              </div>
+              <div class="footer-content">
+                <p>
+                  Together, we'll turn your ambitions into reality. Trust us to guide you, and let's achieve Remarkable Success In India and Southeast Asia!
+                </p>
+                <div class="footer-social-text">
+                  <div class="social-icon">
+                    <a href="https://www.facebook.com/capstoneconsultancysingapore/"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="http://linkedin.com/company/104409718/admin/dashboard/"><i class="fa-brands fa-linkedin"></i></a>
+                  </div>
+                  <div>
+                    <a href="privacy-policy.html" id="url-privacy">Privacy Policy</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-xl-2 col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
+            data-wow-delay=".4s"
+          >
+            <div class="footer-widget-items mt-30">
+              <div class="widget-title mb-25">
+                <h3 class="font-size-24 text-white font-weight-500">
+                  Company
+                </h3>
+              </div>
+              <ul class="user-links">
+                <li><a href="india.html">India</a></li>
+                <li><a href="singapore.html">Singapore</a></li>
+                <li><a href="vietnam.html">Vietnam</a></li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="col-xl-2 col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
+            data-wow-delay=".8s"
+          >
+            <div class="footer-widget-items mt-30">
+              <div class="widget-title mb-25">
+                <h3 class="font-size-24 text-white font-weight-500">
+                 Office
+                </h3>
+              </div>
+              <ul class="contact-list">
+                <h5 class="font-size-24 text-white font-weight-500">
+                 Singapore
+                </h5>
+                <li>
+                  <i class="lnr-icon-map-marker"></i>
+                  <p><a href="tel:+1050055900">60 Anson Road S079914</a></p>
+                </li>
+                <li>
+                  <i class="lnr-icon-envelope"></i>
+                  <p>
+                    <a
+                      href="#"
+                      ><span
+                        class="__cf_email__"
+                        data-cfemail="f8be91969b949180b8909d9488d68d8b"
+                        >cs@thecapstoneconsultancy.com</span
+                      ></a
+                    >
+                  </p>
+                </li>
+                <li>
+                  <i class="lnr-icon-phone-handset"></i>
+                  <p><a href="tel:+6591916628">+65 91916628</a></p>
+                </li>
+                <li>
+                  <i class="lnr-icon-phone-handset"></i>
+                  <p><a href="tel:+918962576628">+91 8962576628</a></p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="col-xl-2 col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
+            data-wow-delay=".8s"
+          >
+            <div class="footer-widget-items mt-30">
+              <div class="widget-title mb-25">
+                <h3 class="font-size-24 text-white font-weight-500">
+                Office
+                </h3>
+              </div>
+              <ul class="contact-list">
+                <h5 class="font-size-24 text-white font-weight-500">
+                 Vietnam
+                </h5>
+                <li>
+                  <i class="lnr-icon-map-marker"></i>
+                  <p><a href="tel:+1050055900">34 Đ. Lê Thị Chợ, Phú Mỹ, Quận 7, Hồ Chí Minh 700000</a></p>
+                </li>
+                <li>
+                  <i class="lnr-icon-envelope"></i>
+                  <p>
+                    <a
+                      href="#"
+                      ><span
+                        class="__cf_email__"
+                        data-cfemail="f8be91969b949180b8909d9488d68d8b"
+                        >cs@thecapstoneconsultancy.com</span
+                      ></a
+                    >
+                  </p>
+                </li>
+                <li>
+                  <i class="lnr-icon-phone-handset"></i>
+                  <p><a href="tel:+6591916628">+65 91916628</a></p>
+                </li>
+                <li>
+                  <i class="lnr-icon-phone-handset"></i>
+                  <p><a href="tel:+918962576628">+91 8962576628</a></p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="auto-container">
+        <p class="wow fadeInUp" data-wow-delay=".3s">
+          Copyright © 2025 Capstone Consultancy. All Rights Reserved
+        </p>
+      </div>
+    </div>
+  </footer>
+
+</div><!-- End Page Wrapper -->
+
+<script src="js/jquery.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.fancybox.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/gsap.js"></script>
+<script src="js/gsap-scroll-to-plugin.js"></script>
+<script src="js/gsap-scroll-smoother.js"></script>
+<script src="js/gsap-scroll-trigger.js"></script>
+<script src="js/gsap-split-text.js"></script>
+<script src="js/split-type.min.js"></script>
+<script src="js/parallaxie.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/bxslider.js"></script>
+<script src="js/nice-select.min.js"></script>
+<script src="js/knob.js"></script>
+<script src="js/appear.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/mixitup.js"></script>
+<script src="js/script.js"></script>
+<script src='https://www.noupe.com/embed/01994d2120d2713f9a6ca67febb8c0a4db29.js'></script>
+<script src="js/blog.js"> </script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

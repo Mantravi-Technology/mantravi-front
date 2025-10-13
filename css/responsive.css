@@ -1,0 +1,164 @@
+
+
+@media only screen and (max-width: 1700px){
+	.main-header .header-lower .outer-box .ui-btn-outer{
+		border-right: 0;
+		margin-right: 0;
+		padding-right: 0;
+	}
+
+	/* .header-style-five .info-btn,
+	.header-style-two .info-btn,
+	.header-style-one .info-btn{
+		display: none;
+	} */
+
+	.header-style-one .header-lower .logo-box{
+		margin-right: 30px;
+	}
+	
+	.main-menu .navigation>li {
+		margin-right: 50px;
+	}
+
+	/* .project-section .carousel-outer{
+		margin-left: -100px;
+		margin-right: -100px;
+	}
+
+	.features-section-three .carousel-outer{
+		max-width: 1200px;
+		padding: 0;
+		margin: 0 auto;
+	}
+
+	.header-style-four .header-lower,
+	.header-style-two .header-lower,
+	.header-style-two .header-top{
+		padding: 0 30px;
+	}
+
+	.header-style-five .header-lower{
+		padding-right: 30px;
+	} */
+}
+
+@media only screen and (max-width: 1439px){
+	/* .main-header .header-lower .logo-box {
+		min-width: 260px;
+		margin-right: 20px;
+	} */
+
+	/* .header-top {
+		margin-left: 220px;
+		padding-right: 30px;
+	} */
+
+
+	.main-menu .navigation>li {
+		margin-right: 30px;
+	}
+
+	
+}
+
+
+@media only screen and (max-width: 1199px){
+	.header-top{
+		margin-left: 0;
+		padding: 0;
+	}
+
+	.main-header .main-box{
+		align-items: center;
+	}
+
+	.main-header .header-lower .logo-box{
+		margin-top: 0;
+		min-height: auto;
+	}
+
+	
+
+	
+}
+
+
+@media only screen and (min-width: 768px){
+	.main-menu .navigation > li > ul,
+	.main-menu .navigation > li > ul > li > ul{
+		display:block !important;
+		visibility:hidden;
+		opacity:0;
+	}
+}
+
+@media only screen and (max-width: 1023px){
+	.header-top,
+	.main-header .main-menu {
+		display: none;
+	}
+
+	.main-header .logo {
+		min-width: auto;
+	}
+
+	.main-header .logo img,
+	.sticky-header .logo img {
+		width: auto;
+		max-width: none;
+		max-height: 45px;
+	}
+
+	.mobile-nav-toggler {
+		display: block;
+	}
+
+
+
+	.main-header .main-box .nav-outer {
+		width: auto;
+	}
+
+	.main-header .main-box{
+		justify-content: space-between;
+	}
+
+
+}
+
+
+
+
+@media only screen and (max-width: 767px){
+
+	.main-slider .title{
+		padding: 7px 20px;
+	}
+
+	.main-slider .title:before{
+		display: none;
+	}
+	
+	
+}
+
+
+
+@media only screen and (max-width: 599px){
+	.main-header .header-lower .logo-box {
+		padding-left: 0;
+	}
+
+	
+	.main-header .header-lower .logo-box {
+		min-width: auto;
+		margin-right: 0px;
+		max-width: 140px;
+	}
+
+	
+	.main-header .header-lower .logo-box .logo img {
+		max-width: 140px;
+	}
+}

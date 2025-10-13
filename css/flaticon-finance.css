@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'flaticon-finance';
+  src:  url('../fonts/flaticon-finance01ff.eot?a9q007');
+  src:  url('../fonts/flaticon-finance01ff.eot?a9q007#iefix') format('embedded-opentype'),
+    url('../fonts/flaticon-finance01ff.ttf?a9q007') format('truetype'),
+    url('../fonts/flaticon-finance01ff.woff?a9q007') format('woff'),
+    url('../fonts/flaticon-finance01ff.svg?a9q007#flaticon-finance') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="flaticon-finance-"], [class*=" flaticon-finance-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'flaticon-finance' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.flaticon-finance-creativity-1-1:before {
+  content: "\e900";
+}
+.flaticon-finance-iteration-1:before {
+  content: "\e901";
+}
+.flaticon-finance-investment-1:before {
+  content: "\e902";
+}
+.flaticon-finance-customer-1:before {
+  content: "\e903";
+}
+.flaticon-finance-Starategic-Invesment:before {
+  content: "\e904";
+}
+.flaticon-finance-fi_3385625:before {
+  content: "\e905";
+}
+.flaticon-finance-Fertile--Streamline-Sharp-Material-Symbols-1:before {
+  content: "\e906";
+}
+.flaticon-finance-Priicng-Plan:before {
+  content: "\e907";
+}
+.flaticon-finance-award-svgrepo-com-1:before {
+  content: "\e908";
+}
+.flaticon-finance-business-finance-corporate-34-svgrepo-com-1:before {
+  content: "\e909";
+}
+.flaticon-finance-Accounting:before {
+  content: "\e90a";
+}
+.flaticon-finance-dart-mission-goal-success-svgrepo-com-1:before {
+  content: "\e90b";
+}
+.flaticon-finance-business-expense-svgrepo-com-1:before {
+  content: "\e90c";
+}
+.flaticon-finance-briefcase-svgrepo-com-1:before {
+  content: "\e90d";
+}
+.flaticon-finance-Quote:before {
+  content: "\e90e";
+}
+.flaticon-finance-arrow-right-svgrepo-com1-2:before {
+  content: "\e90f";
+}
+.flaticon-finance-office-reader-svgrepo-com-1:before {
+  content: "\e910";
+}
+.flaticon-finance-edit-tools-1:before {
+  content: "\e911";
+}
