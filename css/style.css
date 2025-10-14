@@ -20361,7 +20361,7 @@ Page Title
       transparent 45%,
       transparent 100%
     ),
-    linear-gradient(45deg, rgb(255 65 109 / 85%), rgba(255, 75, 43));
+    linear-gradient(to bottom, #050a30 0%, #081050 100%);
   content: "";
   mix-blend-mode: normal;
 }
@@ -23284,7 +23284,7 @@ Sidebar
       transparent 45%,
       transparent 100%
     ),
-    linear-gradient(45deg, rgb(255 65 109 / 85%), rgba(255, 75, 43));
+    linear-gradient(to bottom, #050a30 0%, #081050 100%);
 }
 
 .footer-top-wrapper {
