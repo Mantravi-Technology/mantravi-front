@@ -23464,3 +23464,50 @@ display: ruby-text;
 #url-privacy{
   color: white;
 }
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-section, .hero-image, .video-wrapper, .hero-video, .video-overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  min-width: 100vw;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.hero-content {
+  position: absolute;
+  z-index: 3;
+  width: 100vw;
+  height: 100vh;
+  top: 0; left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 10vw;
+  color: #fff;
+}
+
+.hero-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  filter: blur(2px) brightness(0.7);
+  z-index: 1;
+}
+
+.video-overlay {
+  background: rgba(5, 10, 48, 0.6);
+  mix-blend-mode: multiply;
+  pointer-events: none;
+  z-index: 2;
+  width: 100vw;
+  height: 100vh;
+  top: 0; left: 0;
+}
