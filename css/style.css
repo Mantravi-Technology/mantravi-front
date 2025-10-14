@@ -23598,7 +23598,7 @@ html, body {
 }
 
 .video-overlay {
-  background: rgba(5, 10, 48, 0.6);
+  background: rgba(255, 255, 255, 0.6);
   mix-blend-mode: multiply;
   pointer-events: none;
   z-index: 2;
