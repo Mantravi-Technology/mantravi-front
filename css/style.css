@@ -61,7 +61,7 @@ License: copyright commercial
   --theme-color-black-rgb: 0, 0, 0;
   --theme-color1: #ffffff;
   --theme-color1-rgb: 34, 36, 41;
-  --theme-color2: #ff416c;
+  --theme-color2: #050a30;
   --theme-color2-rgb: 20, 68, 67;
   --theme-color3: #f4f5f8;
   --theme-color4: #0f0f0f;
@@ -92,7 +92,7 @@ License: copyright commercial
   );
   --body-color: #fff;
   --text-color: #646464;
-  --headings-color: #0b3130;
+  --headings-color: #050a30;
   --link-color: #0b3130;
   --link-hover-color: #c8f169;
   --body-font-family: "Poppins", sans-serif;
@@ -213,7 +213,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--headings-color);
+  color: var(--headingfs-color);
   font-family: var(--heading-font-family);
   position: relative;
   line-height: var(--line-height-heading-);
@@ -2182,7 +2182,7 @@ Scroll To Top style
 }
 .header-style-one.header-1 .main-box {
   background-color: var(--theme-color-white);
-  border-bottom: 1px solid rgba(var(--theme-color-white-rgb), 0.1);
+  border-bottom: 1px solid rgba(var(--theme-color2), 0.1);
 }
 .header-style-one.header-2 {
   position: absolute;
