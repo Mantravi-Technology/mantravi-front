@@ -199,7 +199,8 @@ body {
 
 p,
 .text {
-  color: var(--text-color);
+  /* color: var(--text-color); */
+  color: #ffffff;
   font-size: var(--body-font-size);
   font-family: var(--body-font-family);
   font-weight: var(--body-font-weight);
@@ -2681,7 +2682,8 @@ Scroll To Top style
   width: 100%;
 }
 .main-menu .navigation > li > a {
-  color: var(--headings-color);
+  /* color: var(--headings-color); */
+  color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2711,7 +2713,8 @@ Scroll To Top style
   color: var(--headings-color);
 }
 .main-menu .navigation > li.current > a {
-  color: var(--headings-color);
+  /* color: var(--headings-color); */
+  color: #ffffff;
   font-weight: 500;
 }
 .main-menu .navigation > li.dropdown:hover > ul {
@@ -3731,7 +3734,7 @@ position: absolute;
   }
 }
 .hero-1 .hero-content {
-  margin-left: 70px;
+  margin-top: 70px;
 }
 @media screen and (max-width: 1499px) {
   .hero-1 .hero-content {
@@ -3822,9 +3825,9 @@ position: absolute;
   background-position: 100% 0;
 }
 .hero-1 .hero-content p {
-  font-size: 18px;
+  font-size: 23px;
   max-width: 530px;
-  margin-top: 20px;
+  margin-inline: auto;
 }
 @media only screen and (max-width: 424px) {
   .hero-1 .hero-content p {
@@ -3921,7 +3924,7 @@ position: absolute;
   right: 0;
   bottom: 0;
   top: 0;
-  max-width: 905px;
+  max-width: 100%;
 }
 @media screen and (max-width: 1499px) {
   .hero-1 .hero-image {
@@ -3935,7 +3938,7 @@ position: absolute;
 }
 @media (max-width: 1199.98px) {
   .hero-1 .hero-image {
-    display: none;
+    display: block;
   }
 }
 .hero-1 .hero-image .shape-2 {
@@ -8915,7 +8918,11 @@ position: absolute;
       transparent 45%,
       transparent 100%
     ),
+<<<<<<< Updated upstream
     linear-gradient(45deg, rgba(45, 28, 32, 0.85), #050a30 );
+=======
+    linear-gradient(45deg, #784c56d9, #050a30 );
+>>>>>>> Stashed changes
   z-index: -1;
   border-radius: 30px;
   position: absolute;
@@ -23559,6 +23566,7 @@ display: ruby-text;
 #url-privacy{
   color: white;
 }
+<<<<<<< Updated upstream
 
 
 
@@ -23662,3 +23670,72 @@ html, body {
 .hero-button a:hover {
   background: #e63939;
 }
+=======
+/* Hero Section Styles - Fixed Video Version */
+.hero-section {
+  position: relative;
+  height: 100vh;
+  min-height: 700px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.hero-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.video-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.hero-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+
+  /* Blur Effect */
+  filter: blur(1.5px);
+  transform: scale(1.05); /* Prevent edge gaps from blur */
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 0.6) 0%,
+    rgba(0, 0, 0, 0.4) 100%
+  );
+  z-index: 2;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 3;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  color: #ffffff;
+  text-align: center;
+}
+>>>>>>> Stashed changes
