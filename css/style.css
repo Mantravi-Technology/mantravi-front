@@ -61,7 +61,7 @@ License: copyright commercial
   --theme-color-black-rgb: 0, 0, 0;
   --theme-color1: #ffffff;
   --theme-color1-rgb: 34, 36, 41;
-  --theme-color2: #ff416c;
+  --theme-color2: #050a30;
   --theme-color2-rgb: 20, 68, 67;
   --theme-color3: #f4f5f8;
   --theme-color4: #0f0f0f;
@@ -92,7 +92,7 @@ License: copyright commercial
   );
   --body-color: #fff;
   --text-color: #646464;
-  --headings-color: #0b3130;
+  --headings-color: #050a30;
   --link-color: #0b3130;
   --link-hover-color: #c8f169;
   --body-font-family: "Poppins", sans-serif;
@@ -213,7 +213,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--headings-color);
+  color: var(--headingfs-color);
   font-family: var(--heading-font-family);
   position: relative;
   line-height: var(--line-height-heading-);
@@ -2183,33 +2183,8 @@ Scroll To Top style
   background-color: #050a30; /* Added dark blue background */
 }
 .header-style-one.header-1 .main-box {
-  background-color: #050a30; /* Updated to dark blue */
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Updated border color */
-}
-
-/* Update main menu navigation colors for dark background */
-.header-style-one .main-menu .navigation > li > a {
-  color: #ffffff !important; /* White text for better contrast */
-}
-
-.header-style-one .main-menu .navigation > li > a:hover,
-.header-style-one .main-menu .navigation > li.current > a {
-  color: var(--theme-color1) !important;
-}
-
-/* Update dropdown menus for dark background */
-.header-style-one .main-menu .navigation li.dropdown ul {
-  background-color: #050a30 !important;
-  border: 1px solid rgba(255, 255, 255, 0.1) !important;
-}
-
-.header-style-one .main-menu .navigation li.dropdown ul li a {
-  color: #ffffff !important;
-}
-
-.header-style-one .main-menu .navigation li.dropdown ul li a:hover {
-  background-color: #1a237e !important;
-  color: #ffffff !important;
+  background-color: var(--theme-color-white);
+  border-bottom: 1px solid rgba(var(--theme-color-white-rgb), 0.1);
 }
 
 .header-style-one.header-2 {
@@ -20386,7 +20361,7 @@ Page Title
       transparent 45%,
       transparent 100%
     ),
-    linear-gradient(45deg, rgb(255 65 109 / 85%), rgba(255, 75, 43));
+    linear-gradient(to bottom, #050a30 0%, #081050 100%);
   content: "";
   mix-blend-mode: normal;
 }
@@ -23309,7 +23284,7 @@ Sidebar
       transparent 45%,
       transparent 100%
     ),
-    linear-gradient(45deg, rgb(255 65 109 / 85%), rgba(255, 75, 43));
+    linear-gradient(to bottom, #050a30 0%, #081050 100%);
 }
 
 .footer-top-wrapper {
@@ -23558,51 +23533,4 @@ display: ruby-text;
 }
 #url-privacy{
   color: white;
-}
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-.hero-section, .hero-image, .video-wrapper, .hero-video, .video-overlay {
-  position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
-  width: 100vw;
-  height: 100vh;
-  min-width: 100vw;
-  min-height: 100vh;
-  overflow: hidden;
-}
-
-.hero-content {
-  position: absolute;
-  z-index: 3;
-  width: 100vw;
-  height: 100vh;
-  top: 0; left: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  padding-left: 10vw;
-  color: #fff;
-}
-
-.hero-video {
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
-  filter: blur(2px) brightness(0.7);
-  z-index: 1;
-}
-
-.video-overlay {
-  background: rgba(255, 255, 255, 0.6);
-  mix-blend-mode: multiply;
-  pointer-events: none;
-  z-index: 2;
-  width: 100vw;
-  height: 100vh;
-  top: 0; left: 0;
 }
