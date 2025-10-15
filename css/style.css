@@ -8919,7 +8919,11 @@ position: absolute;
       transparent 100%
     ),
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     linear-gradient(45deg, rgba(45, 28, 32, 0.85), #050a30 );
+=======
+    linear-gradient(45deg, #784c56d9, #050a30 );
+>>>>>>> Stashed changes
 =======
     linear-gradient(45deg, #784c56d9, #050a30 );
 >>>>>>> Stashed changes
@@ -23567,6 +23571,7 @@ display: ruby-text;
   color: white;
 }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 
 
@@ -23671,6 +23676,8 @@ html, body {
   background: #e63939;
 }
 =======
+=======
+>>>>>>> Stashed changes
 /* Hero Section Styles - Fixed Video Version */
 .hero-section {
   position: relative;
@@ -23738,4 +23745,7 @@ html, body {
   color: #ffffff;
   text-align: center;
 }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
